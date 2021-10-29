@@ -2,10 +2,10 @@
 
 ## A Script for helping you being notified when there is a free spot available
 
-After the pandemics some consulates are out of schedules, since there is lots of persons trying to renew their visas.
-I was hear about some "slots getting opened" but when I go try advancing my schedule I found nothing there.
+After the pandemics some consulates are out of schedules since there is lots of persons trying to renew their visas.
+I always hear about some "slots getting opened" but when I try advancing my schedule I never found a free date.
 So, I decided to try to monitor these free spots.
-With that in mind, the easily way was to paste some script on browser console for "beeping" when a date that satisfies my conditions are available.
+With that in mind, the easily way was to paste some script on browser console for "beeping" when a date that satisfies my conditions is available.
 
 ## Usage
 
@@ -40,7 +40,7 @@ beep(1000, 0.5)
 
 ## Mapping other cities / offices
 
-Just got to your developer console at your browser, and check the "Network" tab, when manipulating the options (selecting the city/office) you will see the codes on the request's urls.
+Just go to your developer console at your browser, and check the "Network" tab, when manipulating the options (selecting the city/office) you will see the codes on the request's urls.
 
 ## No Warranty
 
