@@ -17,7 +17,7 @@ With that in mind, the easily way was to paste some script on browser console fo
 
 2. Login to the scheduler system (https://ais.usvisa-info.com/pt-br/niv in portuguese)
 3. Go to reschedule and leave the page ready (to be faster) to reschedule you appointment. I suggest choosing a different city, so you can change right away after listening to the beep.
-4. Duplicate the browser tab, open a developer console, and paste the script. It will begin pooling the free spots based on the conditions specified and BEEP when it find one free spot.
+4. Duplicate the browser tab **(you must duplicate the logged in tab)**, open a developer console, and paste the script. It will begin pooling the free spots based on the conditions specified and BEEP when it find one free spot.
 5. Wait for the beep, and run to finish your reschedule.
 
 ## More info
