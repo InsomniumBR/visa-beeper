@@ -30,7 +30,7 @@ var expectedMonths = ["2021-11", "2021-12", "2022-01", "2022-02", "2022-03"];
 var expectedCity = 56; // automagically CASV 60
 var expectedOrg = null; // You don't need to fill, but maybe is useful when not working with CASVs.
 
-function beep(frequency, durationSec, ramp = false) {
+function beep(frequency = 1000, durationSec = 0.5, ramp = false) {
     if (oscillatorNode == null) {
         audioContext = new (window.AudioContext || window.webkitAudioContext)();
         stopTime = audioContext.currentTime;
