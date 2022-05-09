@@ -35,7 +35,7 @@ stop()
 Just call the beep function anytime after pasting the code:
 
 ```
-beep(1000, 0.5)
+beep()
 ```
 
 ## Mapping other cities / offices
